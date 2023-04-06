@@ -33,6 +33,13 @@
                     Console.WriteLine("Result for Second Method" + resultTwo);
                     break;
 
+                case 3:
+                    Car car = new Car();
+                    string brandName = "BMW";
+                    car.Brand(brandName);
+                    car.MethodInVehical();
+                    car.MethodeInCar();
+                    break;
             }
         }
     }
