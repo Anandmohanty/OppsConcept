@@ -72,6 +72,11 @@
                     diriderivedClass.Salary();
                     TypeOfMethods.StaticMethod();
                     break;
+
+                case 8:
+                    ValueAndReferenceType valueAndReferenceType = new ValueAndReferenceType();
+                    valueAndReferenceType.ShowValueAndReferanceType();
+                    break;
             }
         }
     }
